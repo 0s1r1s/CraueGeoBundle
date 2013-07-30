@@ -55,6 +55,13 @@ class GeoPostalCode {
 	 */
 	protected $lng;
 
+    /**
+     * @var string
+     * @ORM\Column(name="city", type="string", length=80, nullable=false)
+     * @Assert\NotBlank
+     */
+    protected $city;
+
 	public function getId() {
 		return $this->id;
 	}
@@ -91,4 +98,13 @@ class GeoPostalCode {
 		return $this->lng;
 	}
 
+    public function setCity($city)
+    {
+        $this->city = $city;
+    }
+
+    public function getCity()
+    {
+        return $this->city;
+    }
 }
