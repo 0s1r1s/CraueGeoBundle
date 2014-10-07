@@ -8,8 +8,8 @@ use Doctrine\Common\Persistence\ObjectManager;
 
 /**
  * @author Christian Raue <christian.raue@gmail.com>
- * @copyright 2011-2013 Christian Raue
- * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ * @copyright 2011-2014 Christian Raue
+ * @license http://opensource.org/licenses/mit-license.php MIT License
  */
 abstract class GeonamesPostalCodeData implements FixtureInterface {
 

@@ -17,14 +17,23 @@
 	],
 	"require": {
 		"php": ">=5.3.2",
-		"symfony/framework-bundle": ">=2.0,<2.4-dev"
+		"symfony/framework-bundle": "~2.0"
+	},
+	"require-dev": {
+		"doctrine/orm": "~2.3",
+		"doctrine/data-fixtures": "~1.0",
+		"doctrine/doctrine-bundle": "~1.0",
+		"phpunit/phpunit": "~4.1",
+		"symfony/symfony": "~2.0"
 	},
 	"suggest": {
 		"doctrine/data-fixtures": "*"
 	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
 	"autoload": {
 		"psr-0": {
-			"Craue\\GeoBundle": ""
+			"Craue\\GeoBundle\\": ""
 		}
 	},
 	"target-dir": "Craue/GeoBundle"
